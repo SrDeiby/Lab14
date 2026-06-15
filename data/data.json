@@ -1,0 +1,74 @@
+[
+  {
+    "titulo": "Abbey Road",
+    "artista": "The Beatles",
+    "genero": "Rock",
+    "anio": 1969,
+    "sello": "Apple Records",
+    "pistas": 17,
+    "imagen": "abbey-road.avif",
+    "slug": "abbey-road",
+    "resumen": "El ultimo album grabado por los Beatles, una obra maestra del rock.",
+    "descripcion": "Grabado en los estudios EMI de Londres, Abbey Road es considerado uno de los mejores albumes de la historia de la musica. Con clasicos como 'Come Together' y 'Something', cerro una era dorada del rock."
+  },
+  {
+    "titulo": "Rumours",
+    "artista": "Fleetwood Mac",
+    "genero": "Soft Rock",
+    "anio": 1977,
+    "sello": "Warner Bros.",
+    "pistas": 11,
+    "imagen": "rumours.avif",
+    "slug": "rumours",
+    "resumen": "Uno de los albumes mas vendidos de todos los tiempos, nacido del caos personal.",
+    "descripcion": "Grabado mientras las relaciones de la banda se desmoronaban, Rumours captura la tension y la belleza con canciones como 'Go Your Own Way' y 'The Chain'. Gano el Grammy al Album del Ano en 1978."
+  },
+  {
+    "titulo": "Back in Black",
+    "artista": "AC/DC",
+    "genero": "Hard Rock",
+    "anio": 1980,
+    "sello": "Atlantic",
+    "pistas": 10,
+    "imagen": "back-in-black.avif",
+    "slug": "back-in-black",
+    "resumen": "El album de regreso mas poderoso del rock, dedicado al fallecido Bon Scott.",
+    "descripcion": "Lanzado apenas meses despues de la muerte del vocalista Bon Scott, Back in Black fue un tributo y un renacimiento. Con Brian Johnson al frente, la banda entrego himnos eternos como 'Hells Bells' y el tema homonimo."
+  },
+  {
+    "titulo": "The Dark Side of the Moon",
+    "artista": "Pink Floyd",
+    "genero": "Rock Progresivo",
+    "anio": 1973,
+    "sello": "Harvest",
+    "pistas": 10,
+    "imagen": "dark-side-of-the-moon.avif",
+    "slug": "dark-side-of-the-moon",
+    "resumen": "Una exploracion sonora y filosofica que permanecio decadas en las listas.",
+    "descripcion": "Con temas sobre el tiempo, la codicia y la locura, este album de Pink Floyd trasciende el rock para convertirse en una experiencia auditiva. 'Money' y 'Time' son solo algunas de sus joyas atemporales."
+  },
+  {
+    "titulo": "Nevermind",
+    "artista": "Nirvana",
+    "genero": "Grunge",
+    "anio": 1991,
+    "sello": "DGC Records",
+    "pistas": 12,
+    "imagen": "nevermind.avif",
+    "slug": "nevermind",
+    "resumen": "El album que llevo el grunge al mundo y cambio el rock para siempre.",
+    "descripcion": "Nevermind sacudio la industria musical con la crudeza de Kurt Cobain y el poder del trio de Seattle. 'Smells Like Teen Spirit' se convirtio en el himno de una generacion y redefinjo el rock alternativo de los 90."
+  },
+  {
+    "titulo": "Purple Rain",
+    "artista": "Prince",
+    "genero": "Pop / R&B",
+    "anio": 1984,
+    "sello": "Warner Bros.",
+    "pistas": 9,
+    "imagen": "purple-rain.avif",
+    "slug": "purple-rain",
+    "resumen": "La obra cumbre de Prince, banda sonora de su pelicula homónima.",
+    "descripcion": "Purple Rain es el punto mas alto de la carrera de Prince, fusionando rock, pop, soul y funk en una propuesta irrepetible. Con el tema homonimo y 'When Doves Cry', cemento su estatus como genio musical de los 80."
+  }
+]
