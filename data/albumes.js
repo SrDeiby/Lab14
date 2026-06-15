@@ -44,3 +44,38 @@ export const search = text => {
   const param = `%${text}%`;
   return query.all(param, param, param, param);
 };
+
+export const create = (album) => {
+  const query = db.prepare(`
+    INSERT INTO albumes (titulo, artista, genero, anio, sello, pistas, imagen, slug, resumen, descripcion)
+    VALUES (:titulo, :artista, :genero, :anio, :sello, :pistas, :imagen, :slug, :resumen, :descripcion)
+  `);
+  query.run(album);
+  return getBySlug(album.slug);
+};
+
+export const update = (slug, datos) => {
+  const query = db.prepare(`
+    UPDATE albumes SET
+      titulo      = :titulo,
+      artista     = :artista,
+      genero      = :genero,
+      anio        = :anio,
+      sello       = :sello,
+      pistas      = :pistas,
+      imagen      = :imagen,
+      resumen     = :resumen,
+      descripcion = :descripcion
+    WHERE slug = :slug
+  `);
+  query.run({ ...datos, slug });
+  return getBySlug(slug);
+};
+
+export const remove = slug => {
+  const album = getBySlug(slug);
+  if (!album) return null;
+  const query = db.prepare("DELETE FROM albumes WHERE slug = ?");
+  query.run(slug);
+  return album;
+};
