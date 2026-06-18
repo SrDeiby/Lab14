@@ -46,6 +46,8 @@ export const search = text => {
 };
 
 export const create = (album) => {
+  const existe = getBySlug(album.slug);
+  if (existe) return null;
   const query = db.prepare(`
     INSERT INTO albumes (titulo, artista, genero, anio, sello, pistas, imagen, slug, resumen, descripcion)
     VALUES (:titulo, :artista, :genero, :anio, :sello, :pistas, :imagen, :slug, :resumen, :descripcion)

@@ -5,9 +5,9 @@ const schema = z.object({
   titulo:      z.string().min(1),
   artista:     z.string().min(1),
   genero:      z.string().min(1),
-  anio:        z.number().int(),
+  anio:   z.coerce.number().int(),
   sello:       z.string().min(1),
-  pistas:      z.number().int().positive(),
+pistas: z.coerce.number().int().positive(),
   imagen:      z.string().min(1),
   resumen:     z.string().min(1),
   descripcion: z.string().min(1)
